@@ -1,0 +1,25 @@
+.Chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid white;
+}
+
+.Chat_message{
+    flex: 1;
+}
+.Chat_message > p{
+    color: grey;
+}
+.Chat_time{
+    color: grey;
+}
+.Chat_image{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
